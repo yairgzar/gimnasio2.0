@@ -19,7 +19,10 @@ const router = createRouter({
     {
       path: '/menu',
       name: 'menu',
-      component: menuView
+      component: menuView,
+      children:[
+        {path: '/personas', name: 'personas', component:RegisterUserView},
+      ]
     }
     
   ]
