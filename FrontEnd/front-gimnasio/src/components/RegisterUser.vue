@@ -17,36 +17,33 @@
         </div>
         <div class="flex-auto px-4 lg:px-10 py-10 pt-0">
           <div class="text-blueGray-400 text-center mb-3 font-bold">
-            <small>Or sign up with credentials</small>
           </div>
           <form>
             <div class="relative w-full mb-3">
               <label class="block uppercase text-blueGray-600 text-xs font-bold mb-2" htmlfor="grid-password">
-                Name</label>
+                Nombre</label>
               <input type="text"
                 class="border-0 px-3 py-3 placeholder-blueGray-300 text-blueGray-600 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full ease-linear transition-all duration-150"
-                placeholder="Name">
+                placeholder="Nombre">
             </div>
 
             <div class="relative w-full mb-3">
-              <label class="block uppercase text-blueGray-600 text-xs font-bold mb-2" htmlfor="grid-password">Last
-                Name</label>
+              <label class="block uppercase text-blueGray-600 text-xs font-bold mb-2" htmlfor="grid-password">Apellidos</label>
               <input type="text"
                 class="border-0 px-3 py-3 placeholder-blueGray-300 text-blueGray-600 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full ease-linear transition-all duration-150"
-                placeholder="Last Name">
+                placeholder="Apellidos">
             </div>
 
             <div class="relative w-full mb-3">
               <label class="block uppercase text-blueGray-600 text-xs font-bold mb-2"
-                htmlfor="grid-password">Title</label>
+                htmlfor="grid-password">Titulo de Cortesia</label>
               <input type="text"
                 class="border-0 px-3 py-3 placeholder-blueGray-300 text-blueGray-600 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full ease-linear transition-all duration-150"
-                placeholder="Title">
+                placeholder="Titulo de Cortesia">
             </div>
 
             <div class="relative w-full mb-3">
-              <label class="block uppercase text-blueGray-600 text-xs font-bold mb-2" htmlfor="grid-password">Date of
-                Birth</label>
+              <label class="block uppercase text-blueGray-600 text-xs font-bold mb-2" htmlfor="grid-password">Fecha de Nacimiento</label>
               <input type="date"
                 class="border-0 px-3 py-3 placeholder-blueGray-300 text-blueGray-600 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full ease-linear transition-all duration-150">
             </div>
@@ -61,18 +58,18 @@
 
             <div class="relative w-full mb-3">
               <label class="block uppercase text-blueGray-600 text-xs font-bold mb-2"
-                htmlfor="grid-password">Gender</label>
+                htmlfor="grid-password">Genero</label>
               <select
                 class="border-0 px-3 py-3 placeholder-blueGray-300 text-blueGray-600 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full ease-linear transition-all duration-150">
-                <option value="male">Male</option>
-                <option value="female">Female</option>
-                <option value="other">Other</option>
+                <option value="Masculino">Male</option>
+                <option value="Femenino">Female</option>
+                <option value="Otro">Other</option>
               </select>
             </div>
 
             <div class="relative w-full mb-3">
               <label class="block uppercase text-blueGray-600 text-xs font-bold mb-2"
-                htmlfor="grid-password">Photo</label>
+                htmlfor="grid-password">Foto</label>
               <input type="file"
                 class="border-0 px-3 py-3 placeholder-blueGray-300 text-blueGray-600 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full ease-linear transition-all duration-150">
             </div>
@@ -102,5 +99,5 @@
       </div>
     </div>
   </footer>
-</section></template>
-  
+</section>
+</template>
