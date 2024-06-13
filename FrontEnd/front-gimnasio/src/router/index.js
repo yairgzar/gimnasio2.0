@@ -28,12 +28,9 @@ const router = createRouter({
     {
       path: '/menu',
       name: 'menu',
-      component: menuView,
-      children:[
-        {path: '/footer', name: 'footer', component:footerView},
-      ]
+      component: footerView 
     }
-    
+
   ]
 })
 

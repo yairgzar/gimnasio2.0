@@ -324,8 +324,14 @@
          <h1>Bienvenido al sistema</h1>
       </div>
       <router-view/>
+      <footerView></footerView>
    </div>
 </template>
 <script>
-
+   import footerView from './footer.vue'
+   export default {
+      components:{
+         footerView,
+      }, components:{ footerView}
+   }
 </script>
