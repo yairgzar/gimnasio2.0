@@ -4,7 +4,7 @@ from sqlalchemy.orm import relationship
 from config.db import Base
 
 class Person(Base):
-    __tablename__ = "persons"
+    __tablename__ = "tbb_personas"
 
     id = Column(Integer, primary_key=True, index=True)
     Titulo_Cortesia = Column(String(255))
